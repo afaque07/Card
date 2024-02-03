@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Card Design</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap") * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: grey;
+        padding: 45px;
+      }
+      .card {
+        background-color: white;
+        width: 198px;
+        border-radius: 7px;
+        padding: 0 0 34px 0;
+      }
+      .image {
+        padding: 5px;
+        border-radius: 7px;
+      }
+      .image img {
+        border-radius: 7px;
+      }
+      .content {
+        padding: 7px 13px;
+        font-family: "Noto Sans", sans-serif;
+      }
+
+      .content p {
+        font-size: 12px;
+        color: grey;
+      }
+      .capsules {
+        padding: 0 22px;
+      }
+      .capsules span {
+        border: 1px solid grey;
+        padding: 0px 6px;
+        border-radius: 7px;
+        font-size: 8px;
+        font-family: "Noto Sans", sans-serif;
+      }
+      .button {
+        text-align: center;
+      }
+      .button button {
+        padding: 7 9px;
+        border-radius: 15px;
+        background-color: rgb(170, 189, 245);
+        color: rgb(21, 80, 125);
+        font-size: 10px;
+        margin-top: 7px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image">
+        <img
+          width="188"
+          src="https://img.freepik.com/premium-photo/young-man-rowing-boat-sea-looking-crescent-digital-art-style-illustration-painting-fantasy-illustration-man-boat_743201-6653.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="capsules">
+        <span>Nature</span>
+        <span>Lake</span>
+      </div>
+      <div class="content">
+        <h2>Afaque</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ab
+          aliquid possimus mollitia eum vitae maxime dicta tempora ad.
+          Aspernatur perferendis molestiae tempore.
+        </p>
+      </div>
+
+      <div class="button">
+        <button>Read More</button>
+      </div>
+    </div>
+  </body>
+</html>
